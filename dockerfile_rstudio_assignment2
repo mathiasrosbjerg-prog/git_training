@@ -7,3 +7,5 @@ RUN apt-get update && apt-get install -y \
 
 # Install R packages using R's built-in 'install.packages' function.
 RUN R -e 'install.packages(c("DBI", "RPostgres", "tidyverse", "httr2", "shiny", "jsonlite"))'
+
+# Hello world
